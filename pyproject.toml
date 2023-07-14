@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "degallery"
+version = "1.0.0"
+description = "A bot that does one singular thing: put Discord images in non-gallery display format via use of linking the CDN assets."
+authors = ["vcokltfre <vcokltfre@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+disnake = "^2.8"
+python-dotenv = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
